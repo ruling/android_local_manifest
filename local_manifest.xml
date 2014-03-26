@@ -17,7 +17,6 @@
   <project path="packages/apps/ProximityRecalibrator" name="Mustaavalkosta/android_packages_apps_ProximityRecalibrator" revision="cm-11.0" />
   <project path="packages/apps/Torch" name="Mustaavalkosta/android_packages_apps_Torch" revision="cm-11.0" />
   <project path="packages/providers/MediaProvider" name="Mustaavalkosta/android_packages_providers_MediaProvider" revision="cm-11.0" />
-
   <project path="vendor/qcom/proprietary" name="Mustaavalkosta/android_vendor_qcom_proprietary" revision="cm-11.0" />
   
   <!-- Ruling -->  
