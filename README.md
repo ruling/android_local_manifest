@@ -18,4 +18,4 @@ repo sync
 
 lunch mk_ace-userdebug
 
-mka bacon
+make bacon
