@@ -2,26 +2,26 @@
 <manifest>
 
   <!-- remove CM repos -->
-  <remove-project name="Mokee/android_frameworks_av" />
+  <remove-project name="Mokee/android_frameworks_av" path="frameworks/av"/>
   <remove-project name="CyanogenMod/android_hardware_libhardware_legacy" />
   <remove-project name="CyanogenMod/android_packages_apps_Torch" />
   <remove-project name="CyanogenMod/android_packages_providers_MediaProvider" />
 
   <!-- AceEnablementProject -->
-  <project path="frameworks/av" name="AceEnablementProject/android_frameworks_av" revision="cm-11.0" />
-  <project path="hardware/libhardware_legacy" name="AceEnablementProject/android_hardware_libhardware_legacy" revision="cm-11.0" />
-  <project path="hardware/qcom/audio-legacy" name="AceEnablementProject/android_hardware_qcom_audio-legacy" revision="cm-11.0" />
-  <project path="hardware/qcom/display-legacy" name="AceEnablementProject/android_hardware_qcom_display-legacy" revision="cm-11.0" />
-  <project path="hardware/qcom/media-legacy" name="AceEnablementProject/android_hardware_qcom_media-legacy" revision="cm-11.0" />
-  <project path="kernel/htc/htc7x30-3.0" name="AceEnablementProject/htc7x30-3.0" revision="cm-11.0" />
-  <project path="packages/apps/ProximityRecalibrator" name="AceEnablementProject/android_packages_apps_ProximityRecalibrator" revision="cm-11.0" />
-  <project path="packages/apps/Torch" name="AceEnablementProject/android_packages_apps_Torch" revision="cm-11.0" />
-  <project path="packages/providers/MediaProvider" name="AceEnablementProject/android_packages_providers_MediaProvider" revision="cm-11.0" />
-  <project path="vendor/qcom/proprietary" name="AceEnablementProject/android_vendor_qcom_proprietary" revision="cm-11.0" />
+  <project path="frameworks/av" name="AceEnablementProject/android_frameworks_av" remote="github" revision="cm-11.0" />
+  <project path="hardware/libhardware_legacy" name="AceEnablementProject/android_hardware_libhardware_legacy" remote="github" revision="cm-11.0" />
+  <project path="hardware/qcom/audio-legacy" name="AceEnablementProject/android_hardware_qcom_audio-legacy" remote="github" revision="cm-11.0" />
+  <project path="hardware/qcom/display-legacy" name="AceEnablementProject/android_hardware_qcom_display-legacy" remote="github" revision="cm-11.0" />
+  <project path="hardware/qcom/media-legacy" name="AceEnablementProject/android_hardware_qcom_media-legacy" remote="github" revision="cm-11.0" />
+  <project path="kernel/htc/htc7x30-3.0" name="AceEnablementProject/htc7x30-3.0" remote="github" revision="cm-11.0" />
+  <project path="packages/apps/ProximityRecalibrator" name="AceEnablementProject/android_packages_apps_ProximityRecalibrator" remote="github" revision="cm-11.0" />
+  <project path="packages/apps/Torch" name="AceEnablementProject/android_packages_apps_Torch" remote="github" revision="cm-11.0" />
+  <project path="packages/providers/MediaProvider" name="AceEnablementProject/android_packages_providers_MediaProvider" remote="github" revision="cm-11.0" />
+  <project path="vendor/qcom/proprietary" name="AceEnablementProject/android_vendor_qcom_proprietary" remote="github" revision="cm-11.0" />
   
   <!-- Ruling -->  
-  <project path="device/htc/ace" name="ruling/android_device_htc_ace" revision="kk_mkt" />
-  <project path="vendor/htc/ace" name="ruling/android_vendor_htc_ace" revision="kk_mkt" />
-  <project path="device/htc/msm7x30-common" name="ruling/android_device_htc_msm7x30-common" revision="cm-11.0" />
+  <project path="device/htc/ace" name="ruling/android_device_htc_ace" remote="github" revision="kk_mkt" />
+  <project path="vendor/htc/ace" name="ruling/android_vendor_htc_ace" remote="github" revision="kk_mkt" />
+  <project path="device/htc/msm7x30-common" name="ruling/android_device_htc_msm7x30-common" remote="github" revision="cm-11.0" />
 
 </manifest>
