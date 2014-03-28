@@ -3,7 +3,13 @@
 
     <remote name="CyanogenMod"
         fetch="https://github.com/CyanogenMod/"/>
+    <remote  name="github"
+        fetch="ssh://git@github.com" />
 
+    <remote  name="mokee"
+        fetch=".."
+        review="review.mfunz.com" />
+           
   <!-- remove repos -->
   <remove-project name="MoKee/android_frameworks_av" path="frameworks/av"/>
   <remove-project name="github/CyanogenMod/android_hardware_libhardware_legacy" />
