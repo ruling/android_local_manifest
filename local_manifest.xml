@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <!-- remove CM repos -->
+    <remote name="CyanogenMod"
+        fetch="https://github.com/CyanogenMod/"/>
+
+  <!-- remove repos -->
   <remove-project name="MoKee/android_frameworks_av" path="frameworks/av"/>
   <remove-project name="github/CyanogenMod/android_hardware_libhardware_legacy" />
   <remove-project name="Mokee/android_packages_apps_Torch" />
