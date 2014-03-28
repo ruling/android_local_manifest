@@ -2,7 +2,7 @@
 <manifest>
 
   <!-- remove CM repos -->
-  <remove-project name="CyanogenMod/android_frameworks_av" />
+  <remove-project name="Mokee/android_frameworks_av" />
   <remove-project name="CyanogenMod/android_hardware_libhardware_legacy" />
   <remove-project name="CyanogenMod/android_packages_apps_Torch" />
   <remove-project name="CyanogenMod/android_packages_providers_MediaProvider" />
