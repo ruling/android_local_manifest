@@ -2,10 +2,10 @@
 <manifest>
 
   <!-- remove CM repos -->
-  <remove-project name="Mokee/android_frameworks_av" path="frameworks/av"/>
-  <remove-project name="CyanogenMod/android_hardware_libhardware_legacy" />
-  <remove-project name="CyanogenMod/android_packages_apps_Torch" />
-  <remove-project name="CyanogenMod/android_packages_providers_MediaProvider" />
+  <remove-project name="MoKee/android_frameworks_av" path="frameworks/av"/>
+  <remove-project name="github/CyanogenMod/android_hardware_libhardware_legacy" />
+  <remove-project name="Mokee/android_packages_apps_Torch" />
+  <remove-project name="github/CyanogenMod/android_packages_providers_MediaProvider" />
 
   <!-- AceEnablementProject -->
   <project path="frameworks/av" name="AceEnablementProject/android_frameworks_av" remote="github" revision="cm-11.0" />
