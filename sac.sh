@@ -68,4 +68,5 @@ rm -Rf ~/mk/ruling
 . build/envsetup.sh
 lunch mk_ace-userdebug
 make bacon
-read -p "按回车键退出..."
+read -p "Press [Enter] key to exit..."
+exit
