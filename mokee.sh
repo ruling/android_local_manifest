@@ -81,8 +81,5 @@ mkdir ~/MOKEE_KK/device/htc/msm7x30-common
 mv android_device_htc_msm7x30-common/* ~/MOKEE_KK/device/htc/msm7x30-common
 cd ~/MOKEE_KK
 rm -Rf ~/MOKEE_KK/ruling
-. build/envsetup.sh
-lunch mk_ace-userdebug
-make bacon
 read -p "Press [Enter] key to exit..."
 exit
