@@ -1,5 +1,31 @@
 #!/bin/bash
 cd ~/MOKEE_KK
+rm -Rf ~/MOKEE_KK/abi
+rm -Rf ~/MOKEE_KK/android
+rm -Rf ~/MOKEE_KK/art
+rm -Rf ~/MOKEE_KK/bionic
+rm -Rf ~/MOKEE_KK/bootable
+rm -Rf ~/MOKEE_KK/build
+rm -Rf ~/MOKEE_KK/cts
+rm -Rf ~/MOKEE_KK/dalvik
+rm -Rf ~/MOKEE_KK/developers
+rm -Rf ~/MOKEE_KK/device
+rm -Rf ~/MOKEE_KK/docs
+rm -Rf ~/MOKEE_KK/external
+rm -Rf ~/MOKEE_KK/frameworks
+rm -Rf ~/MOKEE_KK/hardware
+rm -Rf ~/MOKEE_KK/kernel
+rm -Rf ~/MOKEE_KK/libcore
+rm -Rf ~/MOKEE_KK/libnativehelper
+rm -Rf ~/MOKEE_KK/ndk
+rm -Rf ~/MOKEE_KK/packages
+rm -Rf ~/MOKEE_KK/pdk
+rm -Rf ~/MOKEE_KK/prebuilt
+rm -Rf ~/MOKEE_KK/prebuilts
+rm -Rf ~/MOKEE_KK/sdk
+rm -Rf ~/MOKEE_KK/system
+rm -Rf ~/MOKEE_KK/tools
+rm -Rf ~/MOKEE_KK/vendor
 echo "======start repo sync======"  
 repo sync -j16 
 while [ $? == 1 ]; do  
