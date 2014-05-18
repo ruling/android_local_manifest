@@ -9,6 +9,7 @@ rm -Rf ~/MOKEE_KK/build
 rm -Rf ~/MOKEE_KK/cts
 rm -Rf ~/MOKEE_KK/dalvik
 rm -Rf ~/MOKEE_KK/developers
+rm -Rf ~/MOKEE_KK/development
 rm -Rf ~/MOKEE_KK/device
 rm -Rf ~/MOKEE_KK/docs
 rm -Rf ~/MOKEE_KK/external
