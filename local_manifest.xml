@@ -6,14 +6,14 @@
 
   <!-- remove repos -->
   <remove-project name="MoKee/android_frameworks_av" />
+  <remove-project name="MoKee/android_bootable_recovery" />
   <remove-project name="github/CyanogenMod/android_packages_providers_MediaProvider" />
-  <remove-project name="github/CyanogenMod/android_hardware_libhardware_legacy" />
 
   <!-- Project -->
+  <project path="bootable/recovery" name="PhilZ-cwm6/philz_touch_cwm6" remote="github" revision="cm-11.0" />
   <project path="device/htc/ace" name="DHDAIO/android_device_htc_ace" remote="github" revision="kk_mkt" />
   <project path="device/htc/msm7x30-common" name="DHDAIO/android_device_htc_msm7x30-common" remote="github" revision="kk_mkt" />
   <project path="frameworks/av" name="AceEnablementProject/android_frameworks_av" remote="github" revision="cm-11.0" />
-  <project path="hardware/libhardware_legacy" name="AceEnablementProject/android_hardware_libhardware_legacy" remote="github" revision="cm-11.0" />
   <project path="hardware/qcom/audio-legacy" name="AceEnablementProject/android_hardware_qcom_audio-legacy" remote="github" revision="cm-11.0" />
   <project path="hardware/qcom/display-legacy" name="AceEnablementProject/android_hardware_qcom_display-legacy" remote="github" revision="cm-11.0" />
   <project path="hardware/qcom/media-legacy" name="AceEnablementProject/android_hardware_qcom_media-legacy" remote="github" revision="cm-11.0" />
