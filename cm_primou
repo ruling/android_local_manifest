@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="github"
+           fetch="http://github.com" />
+
+  <!-- Remove CM repos -->
+  <remove-project name="CyanogenMod/android_bootable_recovery" />
+  <remove-project name="CyanogenMod/android_bootable_recovery-cm" />
+  <remove-project name="CyanogenMod/android_packages_wallpapers_LivePicker" />
+  <remove-project name="CyanogenMod/android_hardware_qcom_audio-caf" />
+
+  <!-- TWRP Recovery -->
+  <project path="bootable/recovery" name="TeamWin/Team-Win-Recovery-Project" revision="twrp2.7" />
+
+  <!-- Legacy drivers -->
+  <project path="hardware/qcom/audio-caf" name="Evervolv/android_hardware_qcom_audio-caf" revision="kitkat" />
+  <project path="hardware/qcom/media-legacy" name="Evervolv/android_hardware_qcom_media-legacy" revision="kitkat" />
+  <project path="hardware/qcom/display-legacy" name="Evervolv/android_hardware_qcom_display-legacy" revision="kitkat" />
+  
+
+  <project path="device/htc/primou" name="primouaio/android_device_htc_primou" remote="github" revision="master" />
+  <project path="device/htc/msm7x30-common" name="primouaio/android_device_htc_msm7x30-common" remote="github" revision="master" />
+  <project path="kernel/htc/primou" name="primouaio/android_kernel_htc_primou" remote="github" revision="master" />
+  <project path="vendor/htc/primou" name="primouaio/android_vendor_htc_primou" remote="github" revision="master" />
+  <project path="vendor/qcom/proprietary" name="AceEnablementProject/android_vendor_qcom_proprietary" remote="github" revision="master" />  
+  
+</manifest>
