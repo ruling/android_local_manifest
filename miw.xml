@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+           
+  <remote  name="github"
+           fetch="http://github.com" />
+
+  <project path="device/xiaomi/cancro" name="ruling/android_device_xiaomi_cancro" remote="github" revision="kk_mkt" />
+  <project path="vendor/xiaomi/cancro" name="ruling/android_vendor_xiaomi_cancro" remote="github" revision="kk_mkt" />
+
+</manifest>
