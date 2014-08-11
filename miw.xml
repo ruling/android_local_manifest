@@ -6,5 +6,11 @@
 
   <project path="device/xiaomi/cancro" name="ruling/android_device_xiaomi_cancro" remote="github" revision="kk_mkt" />
   <project path="vendor/xiaomi/cancro" name="ruling/android_vendor_xiaomi_cancro" remote="github" revision="kk_mkt" />
+  <project name="MoKee/android_device_oppo_find7" path="device/oppo/find7" remote="github" revision="kk_mkt" />
+  <project name="MoKee/android_hardware_qcom_fm" path="hardware/qcom/fm" remote="github" revision="kk_mkt" />
+  <project name="MoKee/android_hardware_qcom_display-caf-new" path="hardware/qcom/display-caf-new" remote="github" revision="kk_mkt" />
+  <project name="MoKee/android_hardware_qcom_media-caf-new" path="hardware/qcom/media-caf-new" remote="github" revision="kk_mkt" />
+  <project name="MoKee/android_frameworks_opt_connectivity" path="frameworks/opt/connectivity" remote="github" revision="kk_mkt" />
+  <project name="MoKee/android_device_qcom_common" path="device/qcom/common" remote="github" revision="kk_mkt" />  
 
 </manifest>
