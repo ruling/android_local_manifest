@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+           
+  <remote  name="github"
+           fetch="http://github.com" />
+
+  <!-- remove repos -->
+  <remove-project name="MoKee/android_bootable_recovery" />
+
+  <!-- Project -->
+  <project path="bootable/recovery" name="ruling/android_bootable_recovery" remote="github" revision="cm-11.0" />
+</manifest>
