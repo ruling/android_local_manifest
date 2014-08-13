@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+           
+  <remote  name="github"
+           fetch="http://github.com" />
+
+  <!-- remove repos -->
+  <remove-project name="MoKee/android_bootable_recovery" />
+
+  <!-- Project -->
+  <project path="bootable/recovery" name="ruling/android_bootable_recovery" remote="github" revision="cm-11.0" />
+  <project path="device/oppo/find7" name="find7/android_device_oppo_find7" remote="github" revision="kk_mkt" />
+  <project path="device/oppo/common" name="mokee/android_device_oppo_common" remote="github" revision="kk_mkt" />
+  <project path="device/qcom/common" name="mokee/android_device_qcom_common" remote="github" revision="kk_mkt" />
+  <project path="device/oppo/msm8974-common" name="mokee/android_device_oppo_msm8974-common" remote="github" revision="kk_mkt" />
+  <project path="hardware/qcom/media-caf-new" name="mokee/android_hardware_qcom_media-caf-new" remote="github" revision="cm-11.0" />
+  <project path="hardware/qcom/display-caf-new" name="mokee/android_hardware_qcom_display-caf-new" remote="github" revision="cm-11.0" />
+  <project path="kernel/oneplus/msm8974" name="mokee/android_kernel_oneplus_msm8974" remote="github" revision="kk_mkt" />
+  <project path="vendor/oppo/find7" name="mokee/android_vendor_oppo_find7" remote="github" revision="kk_mkt" />
+  <project path="vendor/oppo/msm8974-common" name="mokee/android_vendor_oppo_msm8974-common" remote="github" revision="kk_mkt" />  
