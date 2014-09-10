@@ -10,7 +10,7 @@ repo init -u https://github.com/MoKee/android.git -b kk_mkt
 
 mkdir -p .repo
 
-wget https://github.com/ruling/android_local_manifest/raw/kk_mkt/local_manifest.xml -O .repo/local_manifest.xml
+wget https://github.com/ruling/android_local_manifest/raw/kk_mkt/local_manifest.xml -O .repo/local_manifests/local_manifest.xml
 
 repo sync
 
