@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ <manifest>
+ 
+ <remote name="github"
+fetch="http://github.com" />
+  
+ <!-- Project -->
+<project path="device/sony/shinano-common" name="ruling/android_device_sony_shinano-common" remote="github" revision="kk_mkt" />
+<project path="device/sony/leo" name="ruling/android_device_sony_leo" remote="github" revision="kk_mkt" />
+ </manifest>
