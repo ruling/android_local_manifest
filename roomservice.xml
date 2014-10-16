@@ -5,11 +5,14 @@
   <project name="MoKee/android_device_oppo_common" path="device/oppo/common" remote="mokee" />
   <project name="MoKee/android_device_oppo_msm8974-common" path="device/oppo/msm8974-common" remote="mokee" />
   <project name="MoKee/android_device_qcom_common" path="device/qcom/common" remote="mokee" />
+  <project name="MoKee/android_device_sony_common" path="device/sony/common" remote="mokee" />
+  <project name="MoKee/android_device_sony_qcom-common" path="device/sony/qcom-common" remote="mokee" />  
   <project name="MoKee/android_hardware_qcom_fm" path="hardware/qcom/fm" remote="mokee" />
   <project name="MoKee/android_hardware_qcom_display-caf-new" path="hardware/qcom/display-caf-new" remote="mokee" />
   <project name="MoKee/android_hardware_qcom_media-caf-new" path="hardware/qcom/media-caf-new" remote="mokee" />
   <project name="MoKee/android_frameworks_opt_connectivity" path="frameworks/opt/connectivity" remote="mokee" />
-  <project name="MoKee/android_kernel_oneplus_msm8974" path="frameworks/opt/connectivitykernel/oneplus/msm8974" remote="mokee" />
+  <project name="MoKee/android_kernel_oneplus_msm8974" path="kernel/oneplus/msm8974" remote="mokee" />
+  <project name="MoKee/android_kernel_sony_msm8974pro" path="kernel/sony/msm8974pro" remote="mokee" />  
   <project name="MoKee/android_vendor_xiaomi_cancro" path="vendor/xiaomi/cancro" remote="mokee" />
   <project name="MoKee/android_vendor_oppo_find7" path="vendor/oppo/find7" remote="mokee" />
   <project name="MoKee/android_vendor_oppo_msm8974-common" path="vendor/oppo/msm8974-common" remote="mokee" />
