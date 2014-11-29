@@ -20,4 +20,4 @@ repo sync
 
 lunch
 
-make bacon
+mka bacon
