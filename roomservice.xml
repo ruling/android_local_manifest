@@ -1,12 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <project name="MoKee/android_device_oppo_find7" path="device/oppo/find7" remote="mokee" />
-  <project name="MoKee/android_device_oppo_common" path="device/oppo/common" remote="mokee" />
-  <project name="MoKee/android_device_oppo_msm8974-common" path="device/oppo/msm8974-common" remote="mokee" />
-  <project name="MoKee/android_device_qcom_common" path="device/qcom/common" remote="mokee" />
-  <project name="MoKee/android_device_qcom_sepolicy" path="device/qcom/sepolicy" remote="mokee" />
-  <project name="MoKee/android_frameworks_opt_connectivity" path="frameworks/opt/connectivity" remote="mokee" />
-  <project name="MoKee/android_kernel_oneplus_msm8974" path="kernel/oneplus/msm8974" remote="mokee" />
   <project name="MoKee/android_vendor_oppo_find7" path="vendor/oppo/find7" remote="mokee" />
+  <project name="MoKee/android_device_oppo_msm8974-common" path="device/oppo/msm8974-common" remote="mokee" />
   <project name="MoKee/android_vendor_oppo_msm8974-common" path="vendor/oppo/msm8974-common" remote="mokee" />
+  <project name="MoKee/android_device_oppo_common" path="device/oppo/common" remote="mokee" />
+  <project name="MoKee/android_kernel_oneplus_msm8974" path="kernel/oneplus/msm8974" remote="mokee" />
+  <project name="MoKee/android_device_qcom_common" path="device/qcom/common" remote="mokee" />
+  <project name="MoKee/android_device_htc_m8" path="device/htc/m8" remote="mokee" />
+  <project name="MoKee/android_vendor_htc_m8" path="vendor/htc/m8" remote="mokee" />
+  <project name="MoKee/android_kernel_htc_msm8974" path="kernel/htc/msm8974" remote="mokee" />
+  <project name="MoKee/android_hardware_qcom_fm" path="hardware/qcom/fm" remote="mokee" />
+  <project name="MoKee/android_device_oppo_find5" path="device/oppo/find5" remote="mokee" />
+  <project name="MoKee/android_vendor_oppo_find5" path="vendor/oppo/find5" remote="mokee" />
+  <project name="MoKee/android_device_oppo_apq8064-common" path="device/oppo/apq8064-common" remote="mokee" />
+  <project name="MoKee/android_vendor_oppo_apq8064-common" path="vendor/oppo/apq8064-common" remote="mokee" />
+  <project name="MoKee/android_kernel_oppo_n1" path="kernel/oppo/n1" remote="mokee" />
+  <project name="MoKee/android_device_oppo_n1" path="device/oppo/n1" remote="mokee" />
+  <project name="MoKee/android_vendor_oppo_n1" path="vendor/oppo/n1" remote="mokee" />
+  <project name="MoKee/android_device_sony_sirius" path="device/sony/sirius" remote="mokee" />
+  <project name="MoKee/android_vendor_sony_sirius" path="vendor/sony/sirius" remote="mokee" />
+  <project name="MoKee/android_device_sony_shinano-common" path="device/sony/shinano-common" remote="mokee" />
+  <project name="MoKee/android_vendor_sony_shinano-common" path="vendor/sony/shinano-common" remote="mokee" />
+  <project name="MoKee/android_kernel_sony_msm8974" path="kernel/sony/msm8974" remote="mokee" />
+  <project name="MoKee/android_device_sony_msm8974-common" path="device/sony/msm8974-common" remote="mokee" />
+  <project name="MoKee/android_device_sony_qcom-common" path="device/sony/qcom-common" remote="mokee" />
+  <project name="MoKee/android_vendor_sony_qcom-common" path="vendor/sony/qcom-common" remote="mokee" />
+  <project name="MoKee/android_device_sony_common" path="device/sony/common" remote="mokee" />
 </manifest>
