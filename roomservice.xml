@@ -18,13 +18,4 @@
   <project name="MoKee/android_kernel_oppo_n1" path="kernel/oppo/n1" remote="mokee" />
   <project name="MoKee/android_device_oppo_n1" path="device/oppo/n1" remote="mokee" />
   <project name="MoKee/android_vendor_oppo_n1" path="vendor/oppo/n1" remote="mokee" />
-  <project name="MoKee/android_device_sony_sirius" path="device/sony/sirius" remote="mokee" />
-  <project name="MoKee/android_vendor_sony_sirius" path="vendor/sony/sirius" remote="mokee" />
-  <project name="MoKee/android_device_sony_shinano-common" path="device/sony/shinano-common" remote="mokee" />
-  <project name="MoKee/android_vendor_sony_shinano-common" path="vendor/sony/shinano-common" remote="mokee" />
-  <project name="MoKee/android_kernel_sony_msm8974" path="kernel/sony/msm8974" remote="mokee" />
-  <project name="MoKee/android_device_sony_msm8974-common" path="device/sony/msm8974-common" remote="mokee" />
-  <project name="MoKee/android_device_sony_qcom-common" path="device/sony/qcom-common" remote="mokee" />
-  <project name="MoKee/android_vendor_sony_qcom-common" path="vendor/sony/qcom-common" remote="mokee" />
-  <project name="MoKee/android_device_sony_common" path="device/sony/common" remote="mokee" />
 </manifest>
