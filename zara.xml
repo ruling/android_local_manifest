@@ -1,0 +1,15 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+           
+  <remote  name="github"
+           fetch="http://github.com" />
+
+
+ <!-- Project -->
+<project path="device/htc/zara" name="ruling/android_device_htc_zara" remote="github" revision="mkl" />
+<project path="device/htc/zara-common" name="ruling/android_device_htc_zara-common" remote="github" revision="mkl" />
+<project path="device/htc/msm8960-common" name="ruling/android_device_htc_msm8960-common" remote="github" revision="mkl" />
+<project path="kernel/htc/msm8960" name="ruling/android_kernel_htc_msm8960" remote="github" revision="mkl" />
+<project path="vendor/htc/zara" name="ruling/android_vendor_htc_zara" remote="github" revision="mkl" />
+ </manifest>
