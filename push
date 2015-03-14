@@ -1,0 +1,28 @@
+#!/bin/bash
+git clone https://github.com/ruling/android_device_htc_zara-common.git -b mkl
+git clone https://github.com/ruling/android_kernel_htc_msm8960.git -b mkl
+git clone https://github.com/ruling/android_device_htc_zara.git -b mkl
+git clone https://github.com/ruling/android_device_htc_msm8960-common.git -b mkl
+cd ~/android_device_htc_zara-common
+git add -A
+git commit -m “mokee bringup”
+git checkout -b mkl
+git push -u origin mkl
+cd
+cd ~/android_kernel_htc_msm8960
+git add -A
+git commit -m “mokee bringup”
+git checkout -b mkl
+git push -u origin mkl
+cd
+cd ~/android_device_htc_zara
+git add -A
+git commit -m “mokee bringup”
+git checkout -b mkl
+git push -u origin mkl
+cd
+cd ~/android_device_htc_msm8960-common
+git add -A
+git commit -m “mokee bringup”
+git checkout -b mkl
+git push -u origin mkl
